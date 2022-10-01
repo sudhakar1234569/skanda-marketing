@@ -26,10 +26,46 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+    <style>
+      .whatsapp_float{
+         position: fixed;
+         width: 60px;
+         height: 60px;
+         bottom: 40px;
+         left: 40px;
+         background-color: #25d366;
+         color: #fff;
+         border-radius: 50px;
+         text-align: center;
+         font-size: 30px;
+         box-shadow: 2px 2px 3px #999;
+         z-index: 100;
+     }
+     .whatsapp-icon{
+           margin-top: 16px;
+     }
+     @media screen and (max-width:767px) {
+      .whatsapp-icon{
+           margin-top: 10px;
+     }
+     .whatsapp_float{
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      left: 10px;
+      font-size: 22px;
+     }
+     }
+  </style>
+
+
 </head>
 
 <body id="top">
-
+    <!--Whatsapp chat-->
+    <a href="https://wa.me/9585591500" class="whatsapp_float" target="_blank" title="click to open whatsapp chat">
+      <i class="fab fa-whatsapp  whatsapp-icon"></i> 
+     </a>
   <!-- 
     - #HEADER
   -->
