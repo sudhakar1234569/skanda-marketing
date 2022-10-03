@@ -708,6 +708,28 @@ textarea{
   }
 }
 
+@media (max-width:400px){
+  .updown{
+    animation-name: updown;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+  }
+  
+  @keyframes updown {
+    0%{
+      transform: translateY(0px);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
+}
 
 
 /*  responsive for larger than 575px screen  */
